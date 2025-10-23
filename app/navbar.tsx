@@ -1,7 +1,8 @@
 'use client';
 
-import { Home, Languages, Menu, X } from 'lucide-react';
+import { Languages, Menu, X } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useLanguage } from './context/LanguageContext';
 import { useState } from 'react';
 
@@ -24,9 +25,8 @@ const Navbar = () => {
   return (
     <header className="bg-[#1e2a47] text-white sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center p-4">
-        <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity" onClick={closeMenu}>
-          <Home className="w-7 h-7" />
-          <span className="text-xl font-bold">{t('nav.brandName')}</span>
+        <Link href="/" className="flex items-center hover:opacity-80 transition-opacity" onClick={closeMenu}>
+          <Image src="/naviico.png" alt="Logo" width={96} height={96} className="w-24 h-24 brightness-0 invert" />
         </Link>
         
         {/* Desktop Navigation */}
