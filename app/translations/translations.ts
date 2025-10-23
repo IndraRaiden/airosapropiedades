@@ -21,8 +21,8 @@ export const translations = {
     // Properties Page
     'properties.hero.title': 'Nuestras Propiedades',
     'properties.hero.description': 'Descubre la casa de tus sueños en nuestra selección curada de propiedades premium',
-    'properties.cta.title': '¿No Encuentras Lo Que Buscas?',
-    'properties.cta.description': 'Contáctanos y te ayudaremos a encontrar tu propiedad perfecta',
+    'properties.cta.title': '¿Te Gusta Alguna de las Propiedades?',
+    'properties.cta.description': 'Contáctanos y te ayudaremos con toda la información que necesites',
     'properties.cta.button': 'Contáctanos',
     
     // Contact Page
@@ -67,6 +67,18 @@ export const translations = {
     'searcher.typology': 'Tipo de Alquiler',
     'searcher.price': 'Precio',
     'searcher.search': 'Buscar',
+    'searcher.locationPlaceholder': 'Ingrese ubicación...',
+    'searcher.selectType': 'Seleccionar tipo...',
+    'searcher.selectPrice': 'Seleccionar precio...',
+    'searcher.type.apartment': 'Apartamento',
+    'searcher.type.house': 'Casa',
+    'searcher.type.terreno': 'Terreno',
+    'searcher.priceRange.0-200000': '$0 - $200,000 MXN',
+    'searcher.priceRange.200000-400000': '$200,000 - $400,000 MXN',
+    'searcher.priceRange.400000-600000': '$400,000 - $600,000 MXN',
+    'searcher.priceRange.600000-800000': '$600,000 - $800,000 MXN',
+    'searcher.priceRange.800000-1000000': '$800,000 - $1,000,000 MXN',
+    'searcher.priceRange.1000000+': '$1,000,000+ MXN',
     
     // Most Viewed Section
     'mostViewed.title': 'Más Vistos',
@@ -106,8 +118,8 @@ export const translations = {
     // Properties Page
     'properties.hero.title': 'Our Properties',
     'properties.hero.description': 'Discover your dream home from our curated selection of premium properties',
-    'properties.cta.title': 'Can\'t Find What You\'re Looking For?',
-    'properties.cta.description': 'Contact us and we\'ll help you find your perfect property',
+    'properties.cta.title': 'Do You Like One of the Properties?',
+    'properties.cta.description': 'Contact us and we\'ll help you with all the information you need',
     'properties.cta.button': 'Contact Us',
     
     // Contact Page
@@ -152,6 +164,18 @@ export const translations = {
     'searcher.typology': 'Typology of rent',
     'searcher.price': 'Price',
     'searcher.search': 'Search',
+    'searcher.locationPlaceholder': 'Enter location...',
+    'searcher.selectType': 'Select type...',
+    'searcher.selectPrice': 'Select price...',
+    'searcher.type.apartment': 'Apartment',
+    'searcher.type.house': 'House',
+    'searcher.type.terreno': 'Land',
+    'searcher.priceRange.0-200000': '$0 - $200,000 USD',
+    'searcher.priceRange.200000-400000': '$200,000 - $400,000 USD',
+    'searcher.priceRange.400000-600000': '$400,000 - $600,000 USD',
+    'searcher.priceRange.600000-800000': '$600,000 - $800,000 USD',
+    'searcher.priceRange.800000-1000000': '$800,000 - $1,000,000 USD',
+    'searcher.priceRange.1000000+': '$1,000,000+ USD',
     
     // Most Viewed Section
     'mostViewed.title': 'Most Viewed',

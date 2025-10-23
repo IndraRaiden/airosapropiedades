@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { Home, ArrowRight } from 'lucide-react';
 import { useLanguage } from './context/LanguageContext';
 
@@ -79,10 +80,10 @@ const Three = () => {
             </div>
 
             <div className="pt-4">
-              <button className="group bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+              <Link href="/properties" className="group bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-flex">
                 {t('cta.button')}
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </button>
+              </Link>
             </div>
           </div>
         </div>
